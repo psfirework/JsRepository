@@ -30,6 +30,7 @@ const counter = FunctionalCounter();
 counter.increment();
 counter.increment();
 
+
 console.log(counter.getValue());
 
 function ES5Counter(counter = 0) {
@@ -52,7 +53,7 @@ const counter2 = new ES5Counter(12);
 
 console.log(counter2.getCounter());
 
-class ES6Counter{
+class ES6Counter {
      counter = 0;
 
     increment() {
